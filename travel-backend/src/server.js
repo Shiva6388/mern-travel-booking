@@ -15,7 +15,7 @@ const app = express();
 // middlewares
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https:https://mern-travel-booking-sigma.vercel.app"],
+  origin: ["http://localhost:5173", "https://mern-travel-booking-sigma.vercel.app"],
   credentials: true
 }));
 
