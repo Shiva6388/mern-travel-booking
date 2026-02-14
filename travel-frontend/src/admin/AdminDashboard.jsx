@@ -15,7 +15,7 @@ export default function AdminDashboard() {
     }
 
     axios
-      .get("http://localhost:5000/api/dashboard/stats", {
+      .get("https://travel-backend-pzxk.onrender.com/api/dashboard/stats", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

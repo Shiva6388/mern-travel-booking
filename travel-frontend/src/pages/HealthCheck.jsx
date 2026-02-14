@@ -6,7 +6,7 @@ export default function HealthCheck() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/health")
+      .get("https://travel-backend-pzxk.onrender.com/api/health")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, []);

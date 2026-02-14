@@ -7,7 +7,7 @@ export default function Trips() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/trips")
+      .get("https://travel-backend-pzxk.onrender.com/api/trips")
       .then((res) => setTrips(res.data.data))
       .catch((err) => console.log(err));
   }, []);

@@ -19,7 +19,7 @@ export default function Booking() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/bookings", {
+      await axios.post("https://travel-backend-pzxk.onrender.com/api/bookings", {
         tripId: id,
         ...form,
       });
